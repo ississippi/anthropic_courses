@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Generate a JSON configuration for an AWS Lambda function that processes S3 events.",
+    "format": "json",
+    "solution_criteria": "The JSON should include FunctionName, Runtime (python3.11), Handler, Role ARN, Timeout (60 seconds), Memory (256 MB), and an environment variable for the S3 bucket name."
+  },
+  {
+    "task": "Generate a JSON configuration for an AWS Lambda function triggered by API Gateway.",
+    "format": "json",
+    "solution_criteria": "The JSON should include FunctionName, Runtime (nodejs18.x), Handler, Role ARN, Timeout (30 seconds), Memory (128 MB), and CORS configuration in environment variables."
+  },
+  {
+    "task": "Generate a JSON configuration for an AWS Lambda function that logs to CloudWatch.",
+    "format": "json",
+    "solution_criteria": "The JSON should include FunctionName, Runtime (python3.11), Handler, Role ARN with CloudWatch Logs permissions, Timeout (120 seconds), Memory (512 MB), and LoggingConfig with log group specification."
+  }
+]
